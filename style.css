@@ -1,0 +1,136 @@
+/* CSS chung cho tiêu đề */
+h1, h2, h3, h4 {
+  font-size: 24px;
+  -webkit-text-stroke: 1px black; /* viền chữ đen */
+}
+
+/* Tiêu đề chính */
+h1 {
+    text-align: center;
+  background: #F3FDE8;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Div liên hệ */
+#lienhe {
+  background: url("https://cdn2.fptshop.com.vn/unsafe/Uploads/images/tin-tuc/172740/Originals/background-la-gi-6.jpg") repeat;
+  text-align: center;
+  padding: 30px;
+  border-radius: 15px;
+  margin: 30px auto;
+  width: 80%;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Danh sách */
+ul, ol {
+  margin-left: 40px;
+  margin-bottom: 15px;
+  color: #444;
+  line-height: 1.7;
+}
+li {
+  margin: 6px 0;
+  transition: transform 0.2s ease, color 0.2s ease;
+  cursor: pointer;
+}
+li:hover {
+  transform: translateX(8px);
+  color: #ff6f91;
+}
+
+/* Bảng mục tiêu */
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+table th {
+  background: #d4f2f4;
+  padding: 12px;
+}
+table td {
+  padding: 10px;
+  text-align: center;
+  background: #fff;
+}
+table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+table tr:hover {
+  background: #f0f0f0;
+}
+
+/* Menu và Footer */
+nav, footer {
+  background: #d4f2f4;
+  color: #0b0848;
+  text-align: center;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: #0b0848;
+  font-weight: bold;
+  margin: 0 12px;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+nav a:hover {
+  color: #ff6f91;
+  border-bottom: 2px solid #ff6f91;
+}
+
+/* Form liên hệ */
+form {
+  margin-top: 20px;
+  text-align: left;
+  display: inline-block;
+  background: rgba(255,255,255,0.9);
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.3s;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #ff6f91;
+}
+input[type="submit"] {
+  background: #d4f2f4;
+  color: #0b0848;
+  font-weight: bold;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+input[type="submit"]:hover {
+  background: #b0e4e6;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Giới thiệu bản thân</title>
+  <!-- External CSS -->
+   <!-- External CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <!-- Menu -->
+  <nav>
+    <a href="#gioithieu">Giới thiệu bản thân</a> | 
+    <a href="#lienhe">Gửi thông tin và liên hệ</a>
+  </nav>
+
+  <!-- Giới thiệu -->
+  <div id="gioithieu">
+    <div>
+        <h1 style="color:#CAEDFF;">Giới thiệu bản thân</h1>
+        <img src="https://cdn11.dienmaycholon.vn/filewebdmclnew/public/userupload/files/Image%20FP_2024/anh-meo-17.png" 
+            alt="Ảnh đại diện của tôi" 
+            width="200" 
+            height="200"
+            style="display:block; margin:auto; width:200px; border-radius:50%;" >
+            <h2 style="color:#D8B4F8;">Thông tin cơ bản</h2>
+                <ul>
+                    <li>Họ tên: Đào Thị Quỳnh Anh</li>
+                    <li>Năm sinh: 2005</li>
+                    <li>Chuyên ngành: Hệ thống Thông tin</li>
+                </ul>
+                
+            <h2 style="color:#D8B4F8;">Sở thích</h2>
+                <h3 style="color: #FFC7EA;">Món ăn</h3>
+                    <ol>
+                        <li>Cơm mẹ nấu</li>
+                        <li>Bánh canh cá lóc</li>
+                        <li>Đồ Nhật</li>
+                    </ol>
+                <h3 style="color: #FFC7EA;">Giải trí</h3>
+                    <h4>Trò chơi</h4>
+                        <ul>
+                            <li>Thể thao ngoài trời</li>
+                            <li>Thể thao điện tử</li>
+                        </ul>
+                    <h4>Bài hát yêu thích</h4>
+                        <ul>
+                            <li>Chân tình</li>
+                            <li>Người tình mùa đông</li>
+                            <li>Nơi tình yêu bắt đầu</li>
+                            <li>Bài thánh ca buồn</li>
+                        </ul>
+
+            <h2 style="color:#D8B4F8;">Mục tiêu của bản thân</h2>
+                <ul>
+                    <table>
+                        <tr>
+                            <th>Mục tiêu</th>
+                            <th>Thời hạn</th>
+                            <th>Hoàn thành</th>
+                        </tr>
+                        <tr>
+                            <td>Hoàn thành môn Phát triển ứng dụng web</td>
+                            <td>Tháng 12/2025</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Học thêm về ReactJS</td>
+                            <td>Tháng 3/2026</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Thực tập tại công ty phần mềm</td>
+                            <td>Tháng 6/2026</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                    </table>
+                </ul>
+
+    </div>
+
+
+  <!-- Liên hệ -->
+  <div id="lienhe">
+    <h1 style="color:#CAEDFF;">Gửi thông tin và liên hệ cùng tôi</h2>
+    <form>
+      <label>Họ tên: <input type="text" name="hoten"></label><br><br>
+      <label>Email: <input type="email" name="email"></label><br><br>
+      <label>Tin nhắn: <textarea name="noidung"></textarea></label><br><br>
+      <label>Giới tính:</label><br>
+        <input type="radio" name="gioitinh" value="nam"> Nam
+        <input type="radio" name="gioitinh" value="nu"> Nữ
+      <br><br>
+      <label>Sở thích:</label><br>
+        <input type="checkbox" name="sothich" value="nghenhac"> Nghe nhạc
+        <input type="checkbox" name="sothich" value="boiloi"> Bơi lội
+        <input type="checkbox" name="sothich" value="bien"> Biển
+        <input type="checkbox" name="sothich" value="docsach"> Đọc sách
+        <input type="checkbox" name="sothich" value="dulich"> Du lịch
+      <br><br>
+      <label>Ngành:</label>
+        <select name="nganh">
+            <option value="khmt">Khoa học Máy tính</option>
+            <option value="cnpm">Công nghệ phần mềm</option>
+            <option value="httt">Hệ thống thông tin</option>
+            <option value="khvkttt">Khoa học và kỹ thuật thông tin</option>
+            <option value="ktmt">Kỹ thuật máy tính</option>
+        </select>
+    <br><br>
+      <input type="submit" value="Gửi">
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>@2024 23520039 Đào Thị Quỳnh Anh</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
